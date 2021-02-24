@@ -1,5 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import styled from 'styled-components';
+import Home from './home.jsx';
+import About from './about.jsx';
+import ContactMe from './contactMe.jsx';
 
 const App = (props) => {
 
@@ -26,8 +29,8 @@ const App = (props) => {
     },
     shoot: () => {
       if (game.y < 0) {
+        collision(bullet, document.getElementById('home'));
         collision(bullet, document.getElementById('about'));
-        collision(bullet, document.getElementById('projects'));
         collision(bullet, document.getElementById('contactMe'));
         keyState[32] = false;
         game.y = game.gameWindow.getBoundingClientRect().bottom + 25;
@@ -60,11 +63,8 @@ const App = (props) => {
   }, []);
 
   const CurrentPage = ({currentPage}) => {
-    if (currentPage === 'home') {
-      return <Home/>;
-    };
+    if (currentPage === 'home') { return <Home/>; };
     if (currentPage === 'about') { return <About/> };
-    if (currentPage === 'projects') { return <Projects/> };
     if (currentPage === 'contactMe') { return <ContactMe/> };
     return <div>whoops</div>
   };
@@ -78,8 +78,8 @@ const App = (props) => {
     <div>
       <GameWindow id='gameWindow'>
         <Tabs>
+          <a onClick={changePage}  id='home'>Home</a>
           <a onClick={changePage} id='about'>About</a>
-          <a onClick={changePage}  id='projects'>Projects</a>
           <a onClick={changePage}  id='contactMe'>Contact Me</a>
         </Tabs>
         <CurrentPage currentPage={currentPage}></CurrentPage>
@@ -90,27 +90,9 @@ const App = (props) => {
   )
 };
 
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
-
-const About = () => {
-  return (
-    <div>About</div>
-  )
-}
-
 const Projects = () => {
   return (
     <div>Projects</div>
-  )
-}
-
-const ContactMe = () => {
-  return (
-    <div>Contact Me</div>
   )
 }
 
