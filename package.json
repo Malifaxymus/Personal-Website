@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/Malifaxymus/Personal-Website#readme",
   "dependencies": {
+    "assets": "^3.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "src": "^1.1.2",
     "styled-components": "^5.1.1"
   }
 }
