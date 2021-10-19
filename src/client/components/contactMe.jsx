@@ -1,21 +1,33 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const ContactMe = () => {
   return (
-    <div>
-      <ul>
+    <ContactDiv>
+      <List>
         <li>
           maxymus.ross@gmail.com
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/maximus-ross/">LinkedIn</a>
+          <ContactAnchor href="https://www.linkedin.com/in/maximus-ross/">LinkedIn</ContactAnchor>
         </li>
         <li>
-          <a href="https://github.com/Malifaxymus">GitHub</a>
+          <ContactAnchor href="https://github.com/Malifaxymus">GitHub</ContactAnchor>
         </li>
-      </ul>
-    </div>
+      </List>
+    </ContactDiv>
   )
 }
+
+const ContactDiv = styled.div`
+  margin: 1em;
+  font-size: 200%;
+`
+const ContactAnchor = styled.a`
+  color: black;
+`
+const List = styled.ul`
+  list-style-type: square;
+`
 
 export default ContactMe;

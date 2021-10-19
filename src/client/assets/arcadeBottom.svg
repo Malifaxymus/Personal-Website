@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 3000" style="enable-background:new 0 0 2000 3000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6D6E71;}
+	.st1{fill:#48484A;}
+	.st2{fill:#808285;}
+	.st3{fill:#A7A9AC;}
+	.st4{fill:#939598;}
+	.st5{fill:#BE1E2D;}
+	.st6{fill:#ED1C24;}
+	.st7{fill:#414042;}
+	.st8{fill:#707275;}
+</style>
+<rect y="0" class="st0" width="2000" height="1127.1"/>
+<path class="st1" d="M698,553.9h-44v243.5c2.3,2,9.5,7.4,20.1,8c13,0.7,21.9-6.3,23.9-8C698,716.2,698,635.1,698,553.9z"/>
+<path class="st1" d="M474.5,577H468v26.9c0,59.6,93.1,108,208,108s208-48.4,208-108V577h-6.5"/>
+<path class="st1" d="M1169.2,590.4C1169.2,590.4,1169.2,590.4,1169.2,590.4L1169.2,590.4v21.3c0,34.5,53.8,62.4,120.1,62.4
+	s120.1-27.9,120.1-62.4h0v-21.3h0c0,0,0,0,0,0"/>
+<rect y="1127.1" class="st2" width="2000" height="1872.9"/>
+<rect x="676" y="1607.5" class="st3" width="648" height="456"/>
+<rect x="720" y="1648" class="st4" width="258" height="372"/>
+<ellipse class="st5" cx="1289.4" cy="598.2" rx="120.1" ry="62.4"/>
+<polyline class="st5" points="1169.2,577 1169.2,598.2 1409.5,598.2 1409.5,577 "/>
+<ellipse class="st6" cx="1289.4" cy="577" rx="120.1" ry="62.4"/>
+<path class="st2" d="M877.5,563.5c-23-46.6-104.5-81.1-201.5-81.1s-178.5,34.5-201.5,81.1H468v26.9c0,59.6,93.1,108,208,108
+	s208-48.4,208-108v-26.9H877.5z"/>
+<rect x="777.2" y="1763.9" class="st7" width="11.7" height="82.1"/>
+<rect x="896.7" y="1763.9" class="st7" width="11.7" height="82.1"/>
+<rect x="1028.1" y="1648" class="st4" width="258" height="372"/>
+<rect x="1085.3" y="1763.9" class="st7" width="11.7" height="82.1"/>
+<rect x="1204.7" y="1763.9" class="st7" width="11.7" height="82.1"/>
+<circle class="st1" cx="676" cy="821.8" r="58"/>
+<path class="st6" d="M977.9,559.1"/>
+<ellipse class="st4" cx="676" cy="563.5" rx="208" ry="108"/>
+<path class="st2" d="M654,671.2c7.2,0.2,14.6,0.3,22,0.3s14.8-0.1,22-0.3V553.5c-7.2-0.2-14.6-0.3-22-0.3s-14.8,0.1-22,0.3V671.2z"
+	/>
+<path class="st3" d="M698,312h-44v243.5c2.3,2,9.5,7.4,20.1,8c13,0.7,21.9-6.3,23.9-8C698,474.3,698,393.1,698,312z"/>
+<path class="st4" d="M654,332v23.2c2.3,2,9.5,7.4,20.1,8c13,0.7,21.9-6.3,23.9-8c0-7.7,0-15.5,0-23.2"/>
+<circle class="st6" cx="676" cy="286" r="58"/>
+<g>
+	<path class="st5" d="M618,290.2c0,32,26,58,58,58c31.3,0,58-26,58-58v-14.5c0,32-26,58-58,58s-58-26-58-58"/>
+</g>
+<path class="st8" d="M698,670.9c-14,0.6-14.6,0.7-22,0.7s-8.9-0.2-22-0.7v26.9c7.2,0.4,14.6,0.6,22,0.6s14.8-0.2,22-0.6V670.9z"/>
+</svg>
